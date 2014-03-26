@@ -224,6 +224,16 @@
 		CF64894B18905971001BEECF /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CF64894A18905971001BEECF /* newton-ipad.png */; };
 		CF64894D18905971001BEECF /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF64894C18905971001BEECF /* newton.plist */; };
 		CF64894F18905971001BEECF /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = CF64894E18905971001BEECF /* newton.png */; };
+		CF648959189071FB001BEECF /* girl_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF648958189071FB001BEECF /* girl_1.png */; };
+		CF64896C189089F6001BEECF /* sprite_sarah.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF64896A189089F4001BEECF /* sprite_sarah.plist */; };
+		CF64896D189089F6001BEECF /* sprite_sarah.png in Resources */ = {isa = PBXBuildFile; fileRef = CF64896B189089F5001BEECF /* sprite_sarah.png */; };
+		CF64896F1891E7D7001BEECF /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF64896E1891E7D6001BEECF /* bg1.jpg */; };
+		CF648971189207D2001BEECF /* lbug.png in Resources */ = {isa = PBXBuildFile; fileRef = CF648970189207D1001BEECF /* lbug.png */; };
+		CF6489781893495D001BEECF /* anime_flower_sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF6489761893495A001BEECF /* anime_flower_sprites.plist */; };
+		CF6489791893495D001BEECF /* anime_flower_sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6489771893495B001BEECF /* anime_flower_sprites.png */; };
+		CF64897C18945B4B001BEECF /* grass_sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF64897A18945B46001BEECF /* grass_sprites.plist */; };
+		CF64897D18945B4B001BEECF /* grass_sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = CF64897B18945B49001BEECF /* grass_sprites.png */; };
+		CF64897F1894B982001BEECF /* block_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF64897E1894B980001BEECF /* block_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -682,6 +692,16 @@
 		CF64894A18905971001BEECF /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
 		CF64894C18905971001BEECF /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
 		CF64894E18905971001BEECF /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
+		CF648958189071FB001BEECF /* girl_1.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = girl_1.png; sourceTree = "<group>"; };
+		CF64896A189089F4001BEECF /* sprite_sarah.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sprite_sarah.plist; sourceTree = "<group>"; };
+		CF64896B189089F5001BEECF /* sprite_sarah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprite_sarah.png; sourceTree = "<group>"; };
+		CF64896E1891E7D6001BEECF /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		CF648970189207D1001BEECF /* lbug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lbug.png; sourceTree = "<group>"; };
+		CF6489761893495A001BEECF /* anime_flower_sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = anime_flower_sprites.plist; sourceTree = "<group>"; };
+		CF6489771893495B001BEECF /* anime_flower_sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime_flower_sprites.png; sourceTree = "<group>"; };
+		CF64897A18945B46001BEECF /* grass_sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = grass_sprites.plist; sourceTree = "<group>"; };
+		CF64897B18945B49001BEECF /* grass_sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_sprites.png; sourceTree = "<group>"; };
+		CF64897E1894B980001BEECF /* block_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +773,12 @@
 		CF64869B1890596E001BEECF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF64897A18945B46001BEECF /* grass_sprites.plist */,
+				CF64897B18945B49001BEECF /* grass_sprites.png */,
+				CF6489761893495A001BEECF /* anime_flower_sprites.plist */,
+				CF6489771893495B001BEECF /* anime_flower_sprites.png */,
+				CF64896E1891E7D6001BEECF /* bg1.jpg */,
+				CF648970189207D1001BEECF /* lbug.png */,
 				CF64869C1890596E001BEECF /* Default.png */,
 				CF64869E1890596E001BEECF /* Default@2x.png */,
 				CF6486A01890596E001BEECF /* Default-568h@2x.png */,
@@ -762,6 +788,7 @@
 				CF6486C21890596E001BEECF /* iTunesArtwork@2x */,
 				CF64894018905971001BEECF /* fire.plist */,
 				CF64894218905971001BEECF /* fire.png */,
+				CF64897E1894B980001BEECF /* block_1.png */,
 				CF64894418905971001BEECF /* newton-ipadhd.plist */,
 				CF64894618905971001BEECF /* newton-ipadhd.png */,
 				CF64894818905971001BEECF /* newton-ipad.plist */,
@@ -776,6 +803,8 @@
 		CF6486A41890596E001BEECF /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				CF64896A189089F4001BEECF /* sprite_sarah.plist */,
+				CF64896B189089F5001BEECF /* sprite_sarah.png */,
 				CF6486A51890596E001BEECF /* Icon.png */,
 				CF6486A71890596E001BEECF /* Icon@2x.png */,
 				CF6486A91890596E001BEECF /* Icon-72.png */,
@@ -788,6 +817,7 @@
 				CF6486B71890596E001BEECF /* Icon-Small.png */,
 				CF6486B91890596E001BEECF /* Icon-Small@2x.png */,
 				CF6486BB1890596E001BEECF /* Icon-Spotlight-iOS7.png */,
+				CF648958189071FB001BEECF /* girl_1.png */,
 				CF6486BD1890596E001BEECF /* Icon-Spotlight-iOS7@2x.png */,
 			);
 			name = Icons;
@@ -1696,6 +1726,16 @@
 				CF64894B18905971001BEECF /* newton-ipad.png in Resources */,
 				CF64894D18905971001BEECF /* newton.plist in Resources */,
 				CF64894F18905971001BEECF /* newton.png in Resources */,
+				CF648959189071FB001BEECF /* girl_1.png in Resources */,
+				CF64896C189089F6001BEECF /* sprite_sarah.plist in Resources */,
+				CF64896D189089F6001BEECF /* sprite_sarah.png in Resources */,
+				CF64896F1891E7D7001BEECF /* bg1.jpg in Resources */,
+				CF648971189207D2001BEECF /* lbug.png in Resources */,
+				CF6489781893495D001BEECF /* anime_flower_sprites.plist in Resources */,
+				CF6489791893495D001BEECF /* anime_flower_sprites.png in Resources */,
+				CF64897C18945B4B001BEECF /* grass_sprites.plist in Resources */,
+				CF64897D18945B4B001BEECF /* grass_sprites.png in Resources */,
+				CF64897F1894B982001BEECF /* block_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

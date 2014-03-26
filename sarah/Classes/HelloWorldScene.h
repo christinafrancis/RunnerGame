@@ -11,13 +11,34 @@
 #import "cocos2d.h"
 #import "cocos2d-ui.h"
 
+
 // -----------------------------------------------------------------------
 
 /**
  *  The main scene
  */
 @interface HelloWorldScene : CCScene
+{
+    BOOL bearMoving;
+      CCSprite  *mBG1;
+    CCSprite  *mBG2;
+     CCParticleSystem *_fire;
+    CCSprite *block;
+    CCPhysicsNode *_physics;
+}
 
+@property BOOL forward;
+@property (nonatomic, strong) CCSprite *bear;
+@property (nonatomic, strong) CCSprite *grass;
+@property (nonatomic, strong) CCSprite *grass2;
+@property (nonatomic, strong) CCSprite *flower;
+@property (nonatomic, strong) CCSprite *ladybug_1;
+@property (nonatomic, strong) CCSprite *ladybug_2;
+@property (nonatomic, strong) CCSprite *ladybug_3;
+@property (nonatomic, strong) CCSprite *ladybug_4;
+@property (nonatomic, strong) CCSprite *ladybug_5;
+@property (nonatomic, strong) CCAction *walkAction;
+@property (nonatomic, strong) CCAction *moveAction;
 // -----------------------------------------------------------------------
 
 + (HelloWorldScene *)scene;

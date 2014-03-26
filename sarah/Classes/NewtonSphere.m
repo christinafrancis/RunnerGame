@@ -122,7 +122,7 @@
     _fire.posVar = ccpMult(_fire.posVar, particleScale);
     
     // this produces weird results
-    // _fire.scale = particleScale;
+     _fire.scale = particleScale;
     // ----------
     
     [self addChild:_fire];
